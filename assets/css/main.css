@@ -828,9 +828,9 @@ p a {
 p a:hover {
     color: #ee4730;
 }
-.w50{
-    width: 90%;
-    margin: -3em auto 0;
+.w50 video{
+    width: 100%;
+    margin: -4em auto 0;
 }
 .mrgn-btn img{
     margin-bottom: 3em;
@@ -3703,7 +3703,7 @@ ul.v-slides {
     .left-text{
         display: none;
     }
-    .w50{
+    .w50 video{
         width: 100%;
         margin: 0 0 2em;
     }
