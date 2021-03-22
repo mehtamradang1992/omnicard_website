@@ -4,10 +4,10 @@
     jQuery(document).ready(function ($) {
         $(document).on('submit', '#contact_form_submit', function (e) {
             e.preventDefault();
-            var name = $('#name').val();
-            var email = $('#email').val();
-            var message = $('#message').val();
-            var phone = $('#phone').val();
+            var name = $('#contactname').val();
+            var email = $('#contactemail').val();
+            var message = $('#contactmessage').val();
+            var phone = $('#contactphone').val();
 
             if (name && email && message && phone) {
                 $.ajax({
@@ -20,10 +20,10 @@
                        
                       
                         $('#messageShow').html('<div class="alert alert-success email-success">' + data.message + '</div>');
-                        $('#name').val('');
-                        $('#email').val('');
-                        $('#message').val('');
-                        $('#phone').val('');
+                        $('#contactname').val('');
+                        $('#contactemail').val('');
+                        $('#contactmessage').val('');
+                        $('#contactphone').val('');
                         // $('#map').height('576px');
                         //$('.email-success').fadeOut(6000);
                     },
