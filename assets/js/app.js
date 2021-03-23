@@ -162,8 +162,8 @@ function set() {
 
 
     $.ajax({
-        //url: 'https://www.paymelon.in/omnicardcampaign/omnicard/submitinterest',
-        url: 'http://103.210.73.96:8080/omnicardcampaign/omnicard/submitinterest',
+        url: 'https://www.paymelon.in/omnicardcampaign/omnicard/submitinterest',
+        //url: 'http://103.210.73.96:8080/omnicardcampaign/omnicard/submitinterest',
         data: JSON.stringify(formDataRequest),
         type: 'POST',
         contentType: 'application/json',
