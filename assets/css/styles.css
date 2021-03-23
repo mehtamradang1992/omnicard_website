@@ -17,7 +17,7 @@ p {
     font-size: 13px;
 } */
 
-/* *::-webkit-scrollbar {
+ *::-webkit-scrollbar {
     width: 0em;
   }
    
@@ -28,7 +28,7 @@ p {
   *::-webkit-scrollbar-thumb {
     background-color: #ec4e44;
     outline: 1px solid #ec4e44;
-  } */
+  } 
 
 *:focus {
     outline: none !important;
@@ -331,7 +331,7 @@ h1 {
 }
 
 .form-group {
-    margin-bottom: 2.5em !important;
+    margin-bottom: 1.8em !important;
 }
 
 .margn-t {
@@ -511,7 +511,7 @@ h2 {
         }
     }
     .p1 {
-        margin-top: 3em;
+        margin-top: 1em;
     }
     .p0 {
         padding: 0 !important;
