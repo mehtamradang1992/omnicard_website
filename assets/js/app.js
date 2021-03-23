@@ -183,7 +183,7 @@ function set() {
                 $('.before_submit').remove();
                 $('.after_submit').show();
                 // $('.after_submit').show()
-                $('.data').html("<p class='f_30'>Thank You!</p><p class='f_20'>We'll contact you before 28th Feb.</p><p class='sharee'>Share & Tag your Friends</p><p class='sharee'>to win prizes worth</p><h2 class='h1_set'>1,00,000/-</h2><img src='./assets/image/offer-2.png' alt='share,Tag & Win' class='img-responsive pa_img_2'><p class='s_text'>Top 100 participants with maximum tags will be winner</p>");
+                $('.data').html("<p class='f_30'>Thank You!</p><img src='./assets/image/icons/thankyou.svg' alt='thankyou' class='img-responsive pa_img_2'><p class='s_text'>We'll be contacting you soon!!</p>");
                 $('#submitApplicationButton').prop('disabled', false);
 
             } else {

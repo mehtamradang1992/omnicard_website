@@ -9,7 +9,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 body {
-    color: #3C4B99 !important; 
+    color: #3b368c !important; 
     font-family: MyWebFont;
 } */
 /* 
@@ -17,7 +17,7 @@ p {
     font-size: 13px;
 } */
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
     width: 0em;
   }
    
@@ -28,12 +28,14 @@ p {
   *::-webkit-scrollbar-thumb {
     background-color: #ec4e44;
     outline: 1px solid #ec4e44;
-  }
+  } */
 
 *:focus {
     outline: none !important;
 }
-
+.data{
+    margin-top: 2em;
+}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -66,8 +68,8 @@ select {
 
 .after_submit p,
 .th p {
-    color: #3C4B99;
-    font-weight: bold;
+    color: #3b368c;
+   
 }
 
 .after_submit p.sharee,
@@ -81,13 +83,13 @@ select {
 }
 
 p.s_text {
-    color: #0A151F;
-    font-size: 16px;
+    color: #3b368c;
+    font-size: 14px;
     padding-bottom: 1em;
 }
 
 .h1_set {
-    color: #3C4B99;
+    color: #3b368c;
     font-weight: bold;
     font-size: 48px;
     font-family: 'Ubuntu', sans-serif;
@@ -283,7 +285,7 @@ select option:first-child {
 
 .main-heading {
     font-weight: bold;
-    color: #3C4B99;
+    color: #3b368c;
 }
 
 .main-heading span {
@@ -292,9 +294,9 @@ select option:first-child {
 }
 
 .btn-sty {
-    background: #3C4B99;
+    background: #3b368c;
     font-size: 14px;
-    border: 0px solid #3C4B99;
+    border: 0px solid #3b368c;
     padding: 0.6em 4em;
 }
 
@@ -351,7 +353,7 @@ h1 {
 }
 
 h2 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .dark-color {
