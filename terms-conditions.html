@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./assets/css/flaticon.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <!--  <link rel="stylesheet" href="assets/css/minified.css"> -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
 
     <style>
@@ -70,10 +70,8 @@
                         <a href="contact.html">contact</a>
                     </li>
                     <li class="d-sm-none">
-                        <a class="header-button d-none d-sm-inline-block"
-                            style="cursor: pointer !important;  background: transparent; border: 1px solid rgb(204, 189, 189);"
-                            data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">Get
-                            OmniCard</a>
+                        <a data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false" class="m-0 header-button">Get #OmniCard</a>
+  
                     </li>
                 </ul>
                 <div class="header-bar d-lg-none">
@@ -86,7 +84,7 @@
                     <a class="header-button  d-none d-sm-inline-block"
                         style="cursor: pointer !important; background: transparent; border: 1px solid rgb(204, 189, 189);"
                         data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">Get
-                        OmniCard</a>
+                        #OmniCard</a>
                 </div>
             </div>
         </div>
@@ -95,16 +93,14 @@
 
 
     <!--============= Header Section Ends Here =============-->
-    <section class="page-header bg_img oh" data-background="assets/image/page-header.png">
+    <section class="page-header oh">
         <div class="bottom-shape d-none d-md-block">
             <img src="assets/css/img/page-header.png" alt="css">
         </div>
-        <div class="page-left-thumb">
-            <img src="assets/image/bg/privacy-header.png" alt="bg">
-        </div>
+       
         <div class="container">
             <div class="page-header-content cl-white">
-                <h4 class="title">OmniCard - Terms of use</h4>
+                <h4 class="title">Terms of Service</h4>
 
             </div>
         </div>
@@ -1521,13 +1517,13 @@
                         <a href="terms-conditions.html">Terms of Service</a>
                     </li>
                     <li>
-                        <a href="privacy-policy.html">Privacy</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
                     </li>
                 </ul>
             </div>
             <div class="copyright">
                 <p>
-                    Copyright © 2020.All Rights Reserved by <a href="index.html">OmniCard</a>
+                    Copyright © 2020. All Rights Reserved by <a href="index.html">OmniCard</a>
                 </p>
             </div>
         </div>
@@ -1543,7 +1539,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="col-sm-10 col-lg-10 col-xl-10 col-md-10 col-xs-10" style="margin-top:.8em ;">
-                        <h4 class="modal-title" style="align-items: center; display: flex;">Get OmniCard</h4>
+                        <h4 class="modal-title" style="align-items: center; display: flex;">Get #OmniCard</h4>
                     </div>
                     <div class="col-sm-2 col-lg-2 col-xl-2 col-md-2 col-xs-2">
                         <button type="button" class="close" data-dismiss="modal" id="configreset"
@@ -1556,18 +1552,13 @@
                         <div class="row">
                             <div class="col-lg-12 col-xl-12 col-md-12 col-xs-12 text-center vh middle"
                                 style="justify-content: center;">
-                                <!-- <a href="https://eroute.in/" target="_blank"><img src="../assest/images/footer-logo.png" alt="Eroute Website" class="footer-logo"></a> <a href="https://eroute.in/" target="_blank" class="eroute-link">www.eroute.in</a> -->
                                 <div class="p1 before_submit row">
                                     <div class="row p0">
-                                        <!-- <h1 class="main-heading">Claim your free card <span>NOW !</span></h1> -->
                                         <form id="myform" name="registration">
-                                            <!-- <div class="margn-t"></div> -->
+
                                             <div class="row" style="width: 100%; margin: auto;">
                                                 <div class="form-group col-lg-6 col-md-6 col-xs-6 name-group">
-                                                    <!-- <div class="palceholder">
-                                                        <label for="name">First Name</label>
-                                                        <span class="star">*</span>
-                                                    </div> -->
+                                                 
                                                     <input type="text" class="form-control vali"
                                                         placeholder="First Name *" name="name" id="name" required>
 
@@ -1581,12 +1572,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-12 col-xs-12 name-group">
-                                                <!-- <div class="palceholder"
-                                                    style="width: 50%; background-color: white; z-index: 12; text-align: left;">
-                                                    <label for="lname" style="  text-align: left;">Select your age
-                                                        group</label>
-                                                    <span class="star">*</span>
-                                                </div> -->
+    
                                                 <select class="form-control vali" id="group" name="group" required>
                                                     <option value="" selected> Select your age group *</option>
                                                     <option value="15-24 Years" style="color: black;">15-24 Years
@@ -1599,10 +1585,7 @@
                                             </div>
                                             <div class="form-group  col-md-12 col-xs-12 email-group">
 
-                                                <!-- <div class="palceholder mid">
-                                                    <label for="mobile">Mobile Number </label>
-                                                    <span class="star">*</span>
-                                                </div> -->
+
                                                 <input type="number" class="form-control vali"
                                                     placeholder="Mobile Number *" name="mobile" id="mobile" min="0"
                                                     required>
@@ -1612,7 +1595,7 @@
                                                     name="email" id="email">
                                             </div>
 
-                                            <div class="row modal-footer">
+                                            <div class="modal-footer">
                                                 <p class="limited">Limited Period Offer</p>
                                                 <div class="col-sm-12 col-lg-12 col-xl-12 col-md-12 col-xs-12"
                                                     style="align-items: center; display: flex;">
@@ -1637,9 +1620,7 @@
                                         <div class=" pa-boo">
                                             <div class="data">
                                             </div>
-                                            <div class="sharetastic">
-                                                <!-- <img src="./assets/image/offer-2.png"> -->
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -1657,10 +1638,10 @@
     <!-- Modals End -->
 
     <script src="assets/js/minified.js"></script>
-    <script src="./jquery.validate.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
     <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="./app.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 

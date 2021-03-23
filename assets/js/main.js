@@ -40,34 +40,7 @@ function step(startTime) {
         
         //requestAnimationFrame(step);
     }), u(document).ready(function() {
-          /*---------------------------------------------------
-            testimonial
-        ----------------------------------------------------*/
-     /*    u('.client-single').on('click', function (event) {
-            event.preventDefault();
-
-            var active = u(this).hasClass('active');
-
-            var parent = u(this).parents('.testi-wrap');
-
-            if (!active) {
-                var activeBlock = parent.find('.client-single.active');
-
-                var currentPos = $(this).attr('data-position');
-
-                var newPos = activeBlock.attr('data-position');
-
-                activeBlock.removeClass('active').removeClass(newPos).addClass('inactive').addClass(currentPos);
-                activeBlock.attr('data-position', currentPos);
-
-               u(this).addClass('active').removeClass('inactive').removeClass(currentPos).addClass(newPos);
-                u(this).attr('data-position', newPos);
-
-            }
-        }); */
-       /*  for (var i = 1; i < totalFrames + 1; i++) {
-            u('body').append(`<div id="preload-image-${i}" style="background-image: url('${imagePath}/${i}.png');"></div>`);
-          } */
+     
         (new WOW).init(), u(".faq-wrapper .faq-title").on("click", function(e) {
             var a = u(this).parent(".faq-item");
             a.hasClass("open") ? (a.removeClass("open"), a.find(".faq-content").removeClass("open"), a.find(".faq-content").slideUp(300, "swing")) : (a.addClass("open"), a.children(".faq-content").slideDown(300, "swing"), a.siblings(".faq-item").children(".faq-content").slideUp(300, "swing"), a.siblings(".faq-item").removeClass("open"), a.siblings(".faq-item").find(".faq-title").removeClass("open"), a.siblings(".faq-item").find(".faq-content").slideUp(300, "swing"))
