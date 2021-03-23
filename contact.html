@@ -27,9 +27,7 @@
             padding: .5em;
             font-size: 16px;
         }
-        a {
-            font-size: 14px;
-        }
+       
         .privacy-item {
             padding-top: 15vh;
         }
@@ -49,43 +47,39 @@
     <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
     <div class="overlay"></div>
     <!--============= ScrollToTop Section Ends Here =============-->
+  <!--============= Header Section Starts Here =============-->
+  <header class="header-section">
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/image/logo/logo.png" alt="logo">
+                </a>
+            </div>
+            <ul class="menu">
+                
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+                <li class="d-sm-none">
+                    <a data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false" class="m-0 header-button">Get #OmniCard</a>
 
-
-    <!--============= Header Section Starts Here =============-->
-    <header class="header-section">
-        <div class="container">
-            <div class="header-wrapper">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="assets/image/logo/logo.png" alt="logo">
-                    </a>
-                </div>
-                <ul class="menu">
-
-
-
-
-                    <li>
-                        <a href="contact.html">contact</a>
-                    </li>
-                    <li class="d-sm-none">
-                        <a data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false" class="m-0 header-button">Get #OmniCard</a>
-  
-                    </li>
-                </ul>
-                <div class="header-bar d-lg-none">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="header-right">
-
-                     <a class="header-button  d-none d-sm-inline-block" style="cursor: pointer !important; background: transparent; border: 1px solid rgb(204, 189, 189);"  data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">Get #OmniCard</a>
-                </div>
+                </li>
+            </ul>
+            <div class="header-bar d-lg-none">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header-right">
+                <button type="button" class="header-button d-none d-sm-inline-block"
+                    style="background-color: transparent;" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">Get
+                    #OmniCard</button>
+                <!-- <a href="#0" class="header-button d-none d-sm-inline-block">Get #OmniCard</a> -->
             </div>
         </div>
-    </header>
-    <!--============= Header Section Ends Here =============-->
+    </div>
+</header>
 
 
 
@@ -296,7 +290,7 @@
 
         <!-- Modals -->
     
-        <div class="row modal fade" style="overflow: auto; height: 100vh;" id="myModal" role="dialog">
+        <div class="row modal fade" style="overflow: auto;" id="myModal" role="dialog">
             <div class="modal-dialog" style="min-width: 42vw ;">
                 <!-- Modal content-->
                 <div class="modal-content">
