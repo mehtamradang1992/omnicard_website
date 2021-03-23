@@ -824,7 +824,9 @@ p:last-child {
 p a {
     color: #ee4730;
 }
-
+#feature{
+    margin-bottom: 4em;
+}
 p a:hover {
     color: #ee4730;
 }
@@ -833,8 +835,9 @@ p a:hover {
     margin: -4em auto 0;
 }
 .mrgn-btn img{
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
+
 .hoverImage img{
     position: relative;
     -webkit-transition: all 200ms ease-in;
@@ -851,7 +854,7 @@ p a:hover {
 }
 .hoverImage img:hover
 {
-    box-shadow: 0px 0px 150px #000000;
+    background: none;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
@@ -8540,6 +8543,7 @@ ul.v-slides {
     display: inline-block;
     width: 100%;
     margin-left: 4em;
+    margin-top: 6em;
 }
 .feature-video-area .button-area video {width: 100%;}
 .video * { display: none !important; } 

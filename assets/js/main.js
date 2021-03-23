@@ -1,4 +1,4 @@
-const $element = $('.eye-animation');
+/* const $element = $('.eye-animation');
 const imagePath = './assets/image/Girl_Card/';
 const totalFrames = 90;
 const animationDuration =4000;
@@ -31,13 +31,14 @@ function step(startTime) {
   }
 
   requestAnimationFrame(step);
-}
+} */
 ! function(u) {
     u(window).on("load", function() {
         u("[data-paroller-factor]").paroller(), u(".preloader").fadeOut(1e3), u(".bg_img").css("background-image", function() {
             return "url(" + u(this).data("background") + ")"
         })
-        requestAnimationFrame(step);
+        
+        //requestAnimationFrame(step);
     }), u(document).ready(function() {
           /*---------------------------------------------------
             testimonial
@@ -64,9 +65,9 @@ function step(startTime) {
 
             }
         }); */
-        for (var i = 1; i < totalFrames + 1; i++) {
+       /*  for (var i = 1; i < totalFrames + 1; i++) {
             u('body').append(`<div id="preload-image-${i}" style="background-image: url('${imagePath}/${i}.png');"></div>`);
-          }
+          } */
         (new WOW).init(), u(".faq-wrapper .faq-title").on("click", function(e) {
             var a = u(this).parent(".faq-item");
             a.hasClass("open") ? (a.removeClass("open"), a.find(".faq-content").removeClass("open"), a.find(".faq-content").slideUp(300, "swing")) : (a.addClass("open"), a.children(".faq-content").slideDown(300, "swing"), a.siblings(".faq-item").children(".faq-content").slideUp(300, "swing"), a.siblings(".faq-item").removeClass("open"), a.siblings(".faq-item").find(".faq-title").removeClass("open"), a.siblings(".faq-item").find(".faq-content").slideUp(300, "swing"))
