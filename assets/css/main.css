@@ -9631,7 +9631,12 @@ div[class*="elem"] img {
     .counter-item-2 {
         width: 50%;
     }
-
+.modal{
+    left: 0.8em;
+}
+h4{
+    font-size: 22px;
+}
     .counter-item-2:nth-of-type(4n + 2) {
         border: none;
     }
@@ -9743,10 +9748,15 @@ div[class*="elem"] img {
     text-align: center;
     margin: 0 auto 30px;
 }
-
+.form-group .star {
+    color: #f16052;
+}
 @media (max-width: 575px) {
     .to-access-item {
         max-width: 350px;
+    }
+    .form-control{
+        width: 95%;
     }
 }
 
