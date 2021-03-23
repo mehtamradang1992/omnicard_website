@@ -830,12 +830,16 @@ p a {
 p a:hover {
     color: #ee4730;
 }
-.w50 video{
+.w50 img{
     width: 100%;
     margin: -4em auto 0;
 }
 .mrgn-btn img{
     margin-bottom: 5em;
+}
+.setVideo video, .setVideo img{
+    width: 100%;
+    margin-top: -8em;
 }
 
 .hoverImage img{
@@ -1522,6 +1526,9 @@ input[type="submit"] {
 @media (max-width: 767px) {
     .section-header .cate {
         margin-bottom: 25px;
+    }
+    .setVideo video, .setVideo img{
+        margin-top: 0;
     }
 }
 
@@ -3602,7 +3609,7 @@ ul.v-slides {
 .banner-1 {
     padding: 5em 0 4em;
     position: relative;
-    background: #0f036f;
+   background: #000;
 }
 
 @media (min-width: 992px) {
@@ -3706,7 +3713,7 @@ ul.v-slides {
     .left-text{
         display: none;
     }
-    .w50 video{
+    .w50 img{
         width: 100%;
         margin: 0 0 2em;
     }
