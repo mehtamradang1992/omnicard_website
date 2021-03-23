@@ -1753,10 +1753,12 @@ input[type="submit"] {
         bottom: 160px;
     }
 }
-
+.footer-top {
+    padding: 2em 0;
+}
 @media (min-width: 992px) {
     .footer-top {
-        padding-bottom: 112px;
+        padding: 2em 0;
     }
 }
 
@@ -1839,6 +1841,7 @@ input[type="submit"] {
 .footer-section {
     position: relative;
     overflow: hidden;
+    background: rgb(15, 3, 111);
 }
 
 .footer-section::before {
@@ -9612,6 +9615,11 @@ div[class*="elem"] img {
     width: 80%;
     text-align: center;
 }
+.f-logo span{
+    color: #fff;
+    font-size: 0.6rem;
+}
+.f-logo img{width: 200px;}
 
 @media (max-width: 991px) {
     .counter-item-2 .title {
