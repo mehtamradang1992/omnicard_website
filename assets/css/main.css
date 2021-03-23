@@ -2627,15 +2627,7 @@ visibility: visible;
         bottom: 80px;
     }
 }
-@media screen and (min-width: 1200px) and (max-width: 1599px) {
-    .owl-carousel .owl-item img.setscreen{
-        height: 100vh;
-    }
-    .feature-item{
-        padding: 10px !important;
-        margin-bottom: 10px !important;
-    }
-}
+
 @media screen and (min-width: 992px) and (max-width: 1600px) {
     .client-say-16 .client-item-16 .client-content {
         box-shadow: 0px 0px 30px rgba(60, 49, 172, 0.2);
