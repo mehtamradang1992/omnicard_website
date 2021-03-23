@@ -14239,9 +14239,9 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 .contact-form .form-group input[type="submit"] {
-    background: -moz-linear-gradient(-65deg, #c165dd 0%, #1153fc 100%);
-    background: -ms-linear-gradient(-65deg, #c165dd 0%, #1153fc 100%);
-    background: -webkit-linear-gradient(-65deg, #c165dd 0%, #1153fc 100%);
+    background-image: -ms-linear-gradient(-65deg, #7773b1 0%, #212529 100%);
+    background-image: -moz-linear-gradient(-65deg, #7773b1 0%, #212529 100%);
+    background-image: -webkit-linear-gradient(-65deg, #7773b1 0%, #212529 100%);
     width: auto;
     padding: 0 50px;
     text-transform: uppercase;
@@ -16030,9 +16030,9 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 .button-3.active, .button-3:hover {
     color: #ffffff;
     border-color: transparent;
-    background: -ms-linear-gradient(-65deg, #c165dd 0%, #1153fc 100%);
-    background: -moz-linear-gradient(-65deg, #c165dd 0%, #1153fc 100%);
-    background: -webkit-linear-gradient(-65deg, #c165dd 0%, #1153fc 100%);
+     background-image: -ms-linear-gradient(-65deg, #7773b1 0%, #212529 100%);
+    background-image: -moz-linear-gradient(-65deg, #7773b1 0%, #212529 100%);
+    background-image: -webkit-linear-gradient(-65deg, #7773b1 0%, #212529 100%);
     box-shadow: 0px 17px 24px 0px rgba(18, 83, 252, 0.51);
 }
 
