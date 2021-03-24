@@ -197,5 +197,3 @@ var vsOpts = {
         $('.banner-1').css('background','#000');
     },2500); 
  },2500); */
- const observer = lozad();
- observer.observe();
