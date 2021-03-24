@@ -1550,14 +1550,17 @@ input[type="submit"] {
         margin-top: 0;
     }
     .new-text{
-        left: 2.6em;
+        left: 3em;
 visibility: visible;
     }
     .new-text.mg-r{
-        left: 3.4em;
+        left: 3.8em;
     }
     .new-text.mg-rr{
         left: 4.4em;
+    }
+    .privacy-section{
+        padding: 2em 1em;
     }
 }
 
