@@ -831,22 +831,17 @@ p a:hover {
     color: #ee4730;
 }
 .w50 img{
-    width: 80%;
-    margin: 0em auto 0;
+    width: 100%;
+    margin: -4em auto 0;
 }
 .mrgn-btn img{
     margin-bottom: 5em;
 }
 .setVideo video, .setVideo img{
     width: 100%;
-    margin-top: -2em;
+    margin-top: -8em;
 }
-.paddi{
-    padding-top: 4em;
-}
-.hoverImage{
-    padding-top: 3em;
-}
+
 .hoverImage img{
     position: relative;
     -webkit-transition: all 200ms ease-in;
