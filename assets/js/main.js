@@ -89,9 +89,8 @@ function step(startTime) {
             nav: !1,
             dots: !1,
             items: 1,
-            autoplay: !0,
-            autoplayTimeout: 2e3,
-            margin: 0,
+            autoplay:true,
+            autoplayTimeout:2000,
             mouseDrag: !1,
             touchDrag: !1,
             animateOut: "fadeOut",
@@ -126,9 +125,8 @@ function step(startTime) {
             responsiveClass: !0,
             nav: !1,
             dots: !1,
-            autoplay: !0,
-            autoplayTimeout: 2e3,
-            //autoplayHoverPause: !0,
+            autoplay:true,
+            autoplayTimeout:2000,
             responsive: {
                 0: {
                     items: 2
