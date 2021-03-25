@@ -99,10 +99,10 @@ function step(startTime) {
         $('.banner-1-slider').on('translate.owl.carousel', function(e){
             idx = e.item.index;
             if(idx==3 || idx==6 ){
-                $('.banner-1').css('background','#000').delay(1000).fadeIn();
+                $('.banner-1').css('background','#000')
             }
             if(idx==4 || idx== 5 || idx==7 || idx== 8 ){
-                $('.banner-1').css('background','#0f036f').delay(1000).fadeIn();
+                $('.banner-1').css('background','#0f036f')
             }
            
         });
