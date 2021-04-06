@@ -8166,10 +8166,17 @@ ul.v-slides {
 .sponsor-thumb {
     max-width: 95px;
     margin: 0 auto;
+    text-align: center;
 }
 .sponsor-thumb img {
     max-width: 100%;
     height: 80px;
+    margin-bottom: 0.4em;
+}
+.sponsor-thumb span{
+    font-size: 14px;
+    
+    
 }
 .download-area {
     max-width: 735px;
