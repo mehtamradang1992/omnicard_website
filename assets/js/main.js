@@ -89,9 +89,8 @@ function step(startTime) {
             nav: !1,
             dots: !1,
             items: 1,
-            autoplay: !0,
-            autoplayTimeout: 2e3,
-            margin: 0,
+            autoplay:true,
+            autoplayTimeout:2000,
             mouseDrag: !1,
             touchDrag: !1,
             animateOut: "fadeOut",
@@ -100,12 +99,15 @@ function step(startTime) {
         $('.banner-1-slider').on('translate.owl.carousel', function(e){
             idx = e.item.index;
             if(idx==3 || idx==6 ){
-                $('.banner-1').css('background','#000').delay(1000).fadeIn();
+                $('.banner-1').css('background','#000')
             }
             if(idx==4 || idx== 5 || idx==7 || idx== 8 ){
-                $('.banner-1').css('background','#0f036f').delay(1000).fadeIn();
+                $('.banner-1').css('background','#0f036f')
             }
            
+        });
+        $(window).on('focus', function () {
+            $('.owl-next').trigger('click');
         });
         var n = u(".banner-1-slider");
         n.owlCarousel(), u(".ban-click").on("click", function() {
@@ -126,9 +128,8 @@ function step(startTime) {
             responsiveClass: !0,
             nav: !1,
             dots: !1,
-            autoplay: !0,
-            autoplayTimeout: 2e3,
-            //autoplayHoverPause: !0,
+            autoplay:true,
+            autoplayTimeout:2000,
             responsive: {
                 0: {
                     items: 2
@@ -160,7 +161,8 @@ function step(startTime) {
             r.trigger("prev.owl.carousel")
         }), u(".feat-next").on("click", function() {
             r.trigger("next.owl.carousel", [300])
-        }),  u(".client-item-16 .client-thumb").on("mouseover", function(e) {
+        }),  
+        u(".client-item-16 .client-thumb").on("mouseover", function(e) {
             var a = u(this).parent(".client-item-16");
             a.hasClass("open") ? (a.removeClass("open"), a.removeClass("active")) : (a.siblings(".client-item-16").find(".client-content").removeClass("active"), a.siblings(".client-item-16").removeClass("active"), a.children(".client-content").addClass("active"), a.addClass("active"))
         })

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>https://omnicard.in/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://omnicard.in/contact.html</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://omnicard.in/terms-conditions.html</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://omnicard.in/privacy-policy.html</loc>
+  <priority>1.0</priority>
+</url>
+</urlset>
