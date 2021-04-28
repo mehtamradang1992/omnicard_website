@@ -8902,6 +8902,9 @@ div[class*="elem"] img {
 .counter-item-2:nth-of-type(4n + 4) {
     border: none;
 }
+.logo img{
+    width: 70%;
+}
 .f-logo {
     margin: 2em auto 0;
     width: 80%;
