@@ -9003,6 +9003,9 @@ div[class*="elem"] img {
     .advance-feature-item.style-two .advance-feature-thumb img {
         width: auto;
     }
+    .logo img{
+        width: 88%;
+    }
 }
 @media screen and (min-width: 1400px) and (min-width: 1650px) {
     .advance-feature-item.style-two .advance-feature-thumb {
