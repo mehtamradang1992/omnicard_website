@@ -2634,7 +2634,7 @@ input[type=submit] {
 }
 
 .header-section.active .header-wrapper .logo a img {
-    width: 70%
+    width: 200px
 }
 
 @media (min-width:992px) {
@@ -8903,7 +8903,7 @@ div[class*="elem"] img {
     border: none;
 }
 .logo img{
-    width: 70%;
+    width: 200px;
 }
 .f-logo {
     margin: 2em auto 0;
@@ -9004,7 +9004,7 @@ div[class*="elem"] img {
         width: auto;
     }
     .logo img{
-        width: 88%;
+        width: 220px;
     }
 }
 @media screen and (min-width: 1400px) and (min-width: 1650px) {
