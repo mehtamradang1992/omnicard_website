@@ -11996,7 +11996,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 .faq--item {
     background: #fff;
-    padding: 26px 30px;
+    padding: 12px 30px;
     position: relative;
     border: 1px solid #dee2f1;
     -webkit-border-radius: 10px;
@@ -12014,7 +12014,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     margin: 0;
     padding-right: 15px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
 }
 .faq--item .faq-title .icon {
     width: 12px;
@@ -12023,7 +12023,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     border-left: 1px solid #3b368c;
     position: absolute;
     right: 30px;
-    top: 35px;
+    top: 20px;
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
