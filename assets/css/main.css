@@ -2762,7 +2762,6 @@ input[type=submit] {
         padding: 5px 10px;
         display: flex;
         align-items: center;
-        border-top: 1px solid rgba(59, 54, 140, .1);
         font-weight: 500;
         text-transform: capitalize;
         justify-content: space-between;
@@ -12054,7 +12053,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     }
     .faq--item .faq-title .icon {
         right: 15px;
-        top: 32px;
+        top: 20px;
     }
 }
 .mt-70 {
