@@ -114,10 +114,11 @@ function step(startTime) {
       });
         $('.banner-1-slider').on('translate.owl.carousel', function(e){
             idx = e.item.index;
-            if(idx==3 || idx==6 ){
+            console.log(idx)
+            if(idx==2 ){
                 $('.banner-1').css('background','#000')
             }
-            if(idx==4 || idx== 5 || idx==7 || idx== 8 ){
+            if(idx==4 || idx== 3 ){
                 $('.banner-1').css('background','#0f036f')
             }
            
