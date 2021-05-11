@@ -114,7 +114,6 @@ function step(startTime) {
       });
         $('.banner-1-slider').on('translate.owl.carousel', function(e){
             idx = e.item.index;
-            console.log(idx)
             if(idx==2 ){
                 $('.banner-1').css('background','#000')
             }
