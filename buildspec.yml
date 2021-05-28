@@ -1,18 +1,18 @@
 version: 0.2
 
 phases:
-	install:
-		commands:
-		  - echo "Install Phase: Nothing to install"
-	pre_build:
-		commands:
-		  - echo "Pre build phase: No commands to execute"
-	build:
-		commands:
-		  - echo "build phase: No commands to execute"
-	post_build:
-		commands:
-		  - echo "Post build phase: No commands to execute"
+  install:
+	commands:
+	  - echo "Install Phase: Nothing to install"
+  pre_build:
+	commands:
+	  - echo "Pre build phase: No commands to execute"
+  build:
+	commands:
+	  - echo "build phase: No commands to execute"
+  post_build:
+	commands:
+	  - echo "Post build phase: No commands to execute"
 artifacts:
 	files:
 	  - echo "No Files"
