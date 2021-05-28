@@ -3,17 +3,17 @@ version: 0.2
 phases:
   install:
      runtime-versions:
-     	nodejs: 10
-    commands:
-       - echo "Install Phase: Something install"
+        nodejs: 10
+     commands:
+        - echo "Install Phase: Something install"
   pre_build:
-	commands:
-	   - echo "Pre build phase: No commands to execute"
+     commands:
+        - echo "Pre build phase: No commands to execute"
   build:
-	commands:
-	  - echo "build phase: No commands to execute"
+    commands:
+      - echo "build phase: No commands to execute"
   post_build:
-	commands:
-	  - echo "Post build phase: No commands to execute"
+     commands:
+       - echo "Post build phase: No commands to execute"
 
 	
