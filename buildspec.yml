@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - echo "build phase No commands to execute"
-      
   post_build:
      commands:
        - echo "Post build phase No commands to execute"
