@@ -14,5 +14,5 @@ phases:
      commands:
        - echo "Post build phase No commands to execute"
 artifacts:
-	files:
-		- "*"
+    files:
+       - "*"
