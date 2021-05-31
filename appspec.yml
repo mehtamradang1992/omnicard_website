@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+files:
+   - source: ./
+     destination: /usr/tomcat/apache-tomcat-8.5.66/webapps/
+     overwrite: yes
